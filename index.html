@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaCore — Développement Logiciel & Applications Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html"><span class="logo-dot"></span>NovaCore</a>
+  <button class="menu-toggle" onclick="toggleMenu()" aria-label="Menu">☰</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html" class="active">Présentation</a></li>
+    <li><a href="landing.html">Notre Produit</a></li>
+    <li><a href="contact.html" class="nav-cta">Nous Contacter</a></li>
+  </ul>
+</nav>
+
+<main class="main">
+
+  <!-- ══════════════════════════════════════
+       HERO — Photo + présentation générale
+  ══════════════════════════════════════ -->
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-glow2"></div>
+
+    <!-- Colonne texte -->
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-pulse"></span>
+        Nouveau · NovaOS v2.0 est disponible
+      </div>
+      <h1 class="hero-title">
+        Des logiciels<br>qui <em>propulsent</em><br>votre business.
+      </h1>
+      <p class="hero-subtitle">
+        NovaCore conçoit et développe des logiciels sur mesure et des applications web qui transforment vos ambitions en réalité numérique — de l'Afrique au monde.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="landing.html">Découvrir NovaOS →</a>
+        <a class="btn-secondary" href="#expertises">Nos expertises ↓</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <div class="stat-num">150<span>+</span></div>
+          <div class="stat-label">Projets livrés</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">98<span>%</span></div>
+          <div class="stat-label">Satisfaction client</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">40<span>+</span></div>
+          <div class="stat-label">Pays couverts</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">8<span>ans</span></div>
+          <div class="stat-label">D'expertise</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Colonne photo -->
+    <div class="hero-photo">
+      <img
+        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=900&q=80"
+        alt="Équipe NovaCore au travail"
+        loading="eager"
+      />
+      <div class="hero-photo-overlay"></div>
+      <div class="hero-photo-badge">
+        <span class="hpb-dot"></span>
+        <div>
+          <div class="hpb-title">NovaOS est en ligne</div>
+          <div class="hpb-sub">Déploiement réussi · 99.9 % uptime</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section class="clients-section">
+    <p class="clients-label">Ils nous font confiance</p>
+    <div class="clients-row">
+      <div class="client-name">TECHVISION</div>
+      <div class="client-name">NOVA&amp;CO</div>
+      <div class="client-name">SYNAPSE</div>
+      <div class="client-name">OPTICORE</div>
+      <div class="client-name">DATAFLUX</div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       À PROPOS
+  ══════════════════════════════════════ -->
+  <section class="about-section">
+    <div class="about-text">
+      <div class="section-label">Qui sommes-nous</div>
+      <h2 class="section-title">Une équipe d'experts<br>à votre service.</h2>
+      <p>
+        Fondée en 2017 à Abidjan, NovaCore accompagne les entreprises dans leur transformation numérique. Nous croyons que la technologie est le levier le plus puissant pour créer de la valeur durable.
+      </p>
+      <p>
+        Notre approche combine rigueur technique, agilité et proximité humaine pour livrer des solutions qui tiennent leurs promesses — dans les délais et le budget convenus.
+      </p>
+      <div class="about-values">
+        <div class="about-value">
+          <div class="av-icon">🎯</div>
+          <div class="av-text">
+            <strong>Orientés résultats</strong>
+            <span>Chaque projet est piloté par des indicateurs clairs et mesurables.</span>
+          </div>
+        </div>
+        <div class="about-value">
+          <div class="av-icon">🔒</div>
+          <div class="av-text">
+            <strong>Sécurité par conception</strong>
+            <span>La sécurité est intégrée dès la première ligne de code.</span>
+          </div>
+        </div>
+        <div class="about-value">
+          <div class="av-icon">♾️</div>
+          <div class="av-text">
+            <strong>Partenariat long terme</strong>
+            <span>Nous accompagnons nos clients bien au-delà de la livraison.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-photo">
+      <div class="about-photo-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
+          alt="L'équipe NovaCore"
+          loading="lazy"
+        />
+        <div class="about-photo-stat">
+          <strong>8 ans</strong>
+          <span>d'expertise digitale</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       GRILLE EXPERTISES — liens vers ancres
+  ══════════════════════════════════════ -->
+  <section class="section" id="expertises" style="border-top:1px solid var(--border);padding-top:90px;">
+    <div class="section-label">Nos expertises</div>
+    <h2 class="section-title">Toutes les expertises,<br>sous un même toit.</h2>
+    <p class="section-desc">
+      De la conception à la mise en production, nous couvrons l'ensemble du cycle de développement. Cliquez sur une carte pour découvrir les détails.
+    </p>
+    <div class="features-grid">
+
+      <a class="feature-card feat-1" href="#logiciel">
+        <div class="fc-img">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80" alt="Code" loading="lazy">
+        </div>
+        <div class="fc-body">
+          <div class="fc-icon">⚙️</div>
+          <div class="fc-title">Développement Logiciel</div>
+          <p class="fc-desc">Applications sur mesure, microservices, backends robustes et APIs hautes performances adaptées à vos besoins.</p>
+          <div class="fc-arrow">En savoir plus →</div>
+        </div>
+      </a>
+
+      <a class="feature-card feat-2" href="#web">
+        <div class="fc-img">
+          <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=600&q=80" alt="Web design" loading="lazy">
+        </div>
+        <div class="fc-body">
+          <div class="fc-icon">🌐</div>
+          <div class="fc-title">Applications Web</div>
+          <p class="fc-desc">Interfaces modernes, progressive web apps, plateformes SaaS et dashboards interactifs.</p>
+          <div class="fc-arrow">En savoir plus →</div>
+        </div>
+      </a>
+
+      <a class="feature-card feat-3" href="#cloud">
+        <div class="fc-img">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80" alt="Cloud" loading="lazy">
+        </div>
+        <div class="fc-body">
+          <div class="fc-icon">☁️</div>
+          <div class="fc-title">Cloud &amp; DevOps</div>
+          <p class="fc-desc">Infrastructure scalable, pipelines CI/CD automatisés et monitoring proactif pour une disponibilité maximale.</p>
+          <div class="fc-arrow">En savoir plus →</div>
+        </div>
+      </a>
+
+      <a class="feature-card feat-4" href="#ia">
+        <div class="fc-img">
+          <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=600&q=80" alt="Intelligence artificielle" loading="lazy">
+        </div>
+        <div class="fc-body">
+          <div class="fc-icon">🤖</div>
+          <div class="fc-title">IA &amp; Machine Learning</div>
+          <p class="fc-desc">Modèles prédictifs, NLP, vision par ordinateur et automatisation intelligente de vos processus.</p>
+          <div class="fc-arrow">En savoir plus →</div>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FONCTIONNALITÉ 1 — Développement Logiciel
+  ══════════════════════════════════════════ -->
+  <section class="feat-section fs1" id="logiciel">
+    <div class="feat-section-header">
+      <a class="back-link" href="#expertises">← Retour aux expertises</a>
+      <div class="feat-badge">⚙️ &nbsp;Développement Logiciel</div>
+      <h2 class="section-title" style="max-width:680px;">Développement<br>Logiciel Sur Mesure</h2>
+      <p class="section-desc">Des applications robustes, scalables et sécurisées conçues spécifiquement pour vos processus métier, avec les meilleures pratiques de l'industrie.</p>
+      <div class="feat-banner">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1300&q=80" alt="Développement logiciel" loading="lazy">
+      </div>
+    </div>
+    <div class="feat-body">
+      <div>
+        <h3 style="font-size:18px;font-weight:700;margin-bottom:6px;">Ce que vous obtenez</h3>
+        <p style="font-size:14px;color:var(--muted);margin-bottom:4px;">Des logiciels qui s'adaptent à votre façon de travailler, pensés pour votre croissance.</p>
+        <ul class="detail-list">
+          <li><div class="check-icon">✓</div><span>Architecture microservices évolutive et maintenable</span></li>
+          <li><div class="check-icon">✓</div><span>APIs RESTful et GraphQL haute performance</span></li>
+          <li><div class="check-icon">✓</div><span>Applications desktop cross-platform (Electron, Tauri)</span></li>
+          <li><div class="check-icon">✓</div><span>Systèmes métier sur mesure (ERP, CRM, HRMS)</span></li>
+          <li><div class="check-icon">✓</div><span>Tests automatisés et couverture de code &gt; 90 %</span></li>
+          <li><div class="check-icon">✓</div><span>Documentation technique complète et formations</span></li>
+        </ul>
+      </div>
+      <div>
+        <div class="detail-visual">
+          <div style="font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;">Indicateurs clés</div>
+          <div class="metric-row">
+            <div class="metric-box"><div class="metric-val">&lt;48h</div><div class="metric-lbl">Réponse initiale</div></div>
+            <div class="metric-box"><div class="metric-val">99.9%</div><div class="metric-lbl">Uptime garanti</div></div>
+            <div class="metric-box"><div class="metric-val">90%+</div><div class="metric-lbl">Couverture tests</div></div>
+            <div class="metric-box"><div class="metric-val">4.9/5</div><div class="metric-lbl">Satisfaction</div></div>
+          </div>
+          <div style="margin-top:26px;font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;">Technologies</div>
+          <div class="tech-stack">
+            <span class="tech-tag">Node.js</span><span class="tech-tag">Python</span><span class="tech-tag">Go</span>
+            <span class="tech-tag">Java / Spring</span><span class="tech-tag">PostgreSQL</span>
+            <span class="tech-tag">MongoDB</span><span class="tech-tag">Redis</span>
+            <span class="tech-tag">GraphQL</span><span class="tech-tag">gRPC</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FONCTIONNALITÉ 2 — Applications Web
+  ══════════════════════════════════════════ -->
+  <section class="feat-section fs2" id="web">
+    <div class="feat-section-header">
+      <a class="back-link" href="#expertises">← Retour aux expertises</a>
+      <div class="feat-badge">🌐 &nbsp;Applications Web</div>
+      <h2 class="section-title" style="max-width:680px;">Applications Web<br>Modernes</h2>
+      <p class="section-desc">Des interfaces exceptionnelles, des Progressive Web Apps ultra-rapides et des plateformes SaaS qui captivent vos utilisateurs.</p>
+      <div class="feat-banner">
+        <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&w=1300&q=80" alt="Applications web" loading="lazy">
+      </div>
+    </div>
+    <div class="feat-body">
+      <div>
+        <h3 style="font-size:18px;font-weight:700;margin-bottom:6px;">Ce que vous obtenez</h3>
+        <p style="font-size:14px;color:var(--muted);margin-bottom:4px;">Le web est votre vitrine. Nous créons des expériences digitales qui impressionnent dès le premier scroll.</p>
+        <ul class="detail-list">
+          <li><div class="check-icon">✓</div><span>SPAs et PWAs avec React, Vue ou Angular</span></li>
+          <li><div class="check-icon">✓</div><span>Design System complet et composants réutilisables</span></li>
+          <li><div class="check-icon">✓</div><span>Optimisation Core Web Vitals et SEO technique</span></li>
+          <li><div class="check-icon">✓</div><span>Accessibilité WCAG 2.1 AA certifiée</span></li>
+          <li><div class="check-icon">✓</div><span>E-commerce, marketplaces et portails clients</span></li>
+          <li><div class="check-icon">✓</div><span>Dashboards interactifs et data visualisation</span></li>
+        </ul>
+      </div>
+      <div>
+        <div class="detail-visual" style="border-color:rgba(124,111,253,.2);">
+          <div style="font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;">Indicateurs clés</div>
+          <div class="metric-row">
+            <div class="metric-box"><div class="metric-val" style="color:var(--accent3);">&lt;1.5s</div><div class="metric-lbl">Chargement</div></div>
+            <div class="metric-box"><div class="metric-val" style="color:var(--accent3);">98/100</div><div class="metric-lbl">Lighthouse</div></div>
+            <div class="metric-box"><div class="metric-val" style="color:var(--accent3);">100%</div><div class="metric-lbl">Mobile ready</div></div>
+            <div class="metric-box"><div class="metric-val" style="color:var(--accent3);">A+</div><div class="metric-lbl">SSL Score</div></div>
+          </div>
+          <div style="margin-top:26px;font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;">Technologies</div>
+          <div class="tech-stack">
+            <span class="tech-tag">React</span><span class="tech-tag">Next.js</span><span class="tech-tag">Vue 3</span>
+            <span class="tech-tag">TypeScript</span><span class="tech-tag">Tailwind CSS</span>
+            <span class="tech-tag">Figma</span><span class="tech-tag">Storybook</span>
+            <span class="tech-tag">Vite</span><span class="tech-tag">Vercel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FONCTIONNALITÉ 3 — Cloud & DevOps
+  ══════════════════════════════════════════ -->
+  <section class="feat-section fs3" id="cloud">
+    <div class="feat-section-header">
+      <a class="back-link" href="#expertises">← Retour aux expertises</a>
+      <div class="feat-badge">☁️ &nbsp;Cloud &amp; DevOps</div>
+      <h2 class="section-title" style="max-width:680px;">Infrastructure Cloud<br>&amp; DevOps</h2>
+      <p class="section-desc">Des architectures cloud-native résilientes, des pipelines CI/CD automatisés et une observabilité totale pour des systèmes qui ne dorment jamais.</p>
+      <div class="feat-banner">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1300&q=80" alt="Cloud et DevOps" loading="lazy">
+      </div>
+    </div>
+    <div class="feat-body">
+      <div>
+        <h3 style="font-size:18px;font-weight:700;margin-bottom:6px;">Ce que vous obtenez</h3>
+        <p style="font-size:14px;color:var(--muted);margin-bottom:4px;">Votre infrastructure doit être aussi performante que votre produit.</p>
+        <ul class="detail-list">
+          <li><div class="check-icon">✓</div><span>Architecture multi-cloud (AWS, GCP, Azure)</span></li>
+          <li><div class="check-icon">✓</div><span>Containerisation Docker &amp; orchestration Kubernetes</span></li>
+          <li><div class="check-icon">✓</div><span>Pipelines CI/CD avec GitHub Actions ou GitLab CI</span></li>
+          <li><div class="check-icon">✓</div><span>Infrastructure as Code (Terraform, Ansible)</span></li>
+          <li><div class="check-icon">✓</div><span>Monitoring &amp; alerting (Prometheus, Grafana, Datadog)</span></li>
+          <li><div class="check-icon">✓</div><span>Plan de reprise d'activité et backup automatisé</span></li>
+        </ul>
+      </div>
+      <div>
+        <div class="detail-visual" style="border-color:rgba(255,95,75,.2);">
+          <div style="font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;">Indicateurs clés</div>
+          <div class="metric-row">
+            <div class="metric-box"><div class="metric-val" style="color:var(--accent2);">99.99%</div><div class="metric-lbl">Disponibilité</div></div>
+            <div class="metric-box"><div class="metric-val" style="color:var(--accent2);">&lt;5min</div><div class="metric-lbl">Déploiement</div></div>
+            <div class="metric-box"><div class="metric-val" style="color:var(--accent2);">60%</div><div class="metric-lbl">Économies cloud</div></div>
+            <div class="metric-box"><div class="metric-val" style="color:var(--accent2);">0</div><div class="metric-lbl">Downtime planifié</div></div>
+          </div>
+          <div style="margin-top:26px;font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;">Technologies</div>
+          <div class="tech-stack">
+            <span class="tech-tag">AWS</span><span class="tech-tag">GCP</span><span class="tech-tag">Azure</span>
+            <span class="tech-tag">Kubernetes</span><span class="tech-tag">Docker</span>
+            <span class="tech-tag">Terraform</span><span class="tech-tag">Prometheus</span>
+            <span class="tech-tag">Grafana</span><span class="tech-tag">ArgoCD</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       FONCTIONNALITÉ 4 — IA & Machine Learning
+  ══════════════════════════════════════════ -->
+  <section class="feat-section fs4" id="ia">
+    <div class="feat-section-header">
+      <a class="back-link" href="#expertises">← Retour aux expertises</a>
+      <div class="feat-badge">🤖 &nbsp;Intelligence Artificielle</div>
+      <h2 class="section-title" style="max-width:680px;">IA &amp; Machine<br>Learning</h2>
+      <p class="section-desc">De l'intelligence artificielle concrète au service de vos objectifs — automatisation, prédiction, personnalisation et compréhension du langage naturel.</p>
+      <div class="feat-banner">
+        <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1300&q=80" alt="Intelligence artificielle" loading="lazy">
+      </div>
+    </div>
+    <div class="feat-body">
+      <div>
+        <h3 style="font-size:18px;font-weight:700;margin-bottom:6px;">Ce que vous obtenez</h3>
+        <p style="font-size:14px;color:var(--muted);margin-bottom:4px;">L'IA n'est plus optionnelle. Nous l'intégrons intelligemment pour un impact mesurable.</p>
+        <ul class="detail-list">
+          <li><div class="check-icon">✓</div><span>Chatbots IA et assistants virtuels conversationnels</span></li>
+          <li><div class="check-icon">✓</div><span>Modèles de recommandation et personnalisation</span></li>
+          <li><div class="check-icon">✓</div><span>Traitement du langage naturel (NLP) multilingue</span></li>
+          <li><div class="check-icon">✓</div><span>Vision par ordinateur et analyse d'images</span></li>
+          <li><div class="check-icon">✓</div><span>Détection d'anomalies et prévention de fraudes</span></li>
+          <li><div class="check-icon">✓</div><span>Fine-tuning de modèles LLM sur vos données</span></li>
+        </ul>
+      </div>
+      <div>
+        <div class="detail-visual" style="border-color:rgba(255,184,108,.2);">
+          <div style="font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;">Indicateurs clés</div>
+          <div class="metric-row">
+            <div class="metric-box"><div class="metric-val" style="color:#FFB86C;">85%+</div><div class="metric-lbl">Précision</div></div>
+            <div class="metric-box"><div class="metric-val" style="color:#FFB86C;">3×</div><div class="metric-lbl">Productivité</div></div>
+            <div class="metric-box"><div class="metric-val" style="color:#FFB86C;">&lt;200ms</div><div class="metric-lbl">Latence</div></div>
+            <div class="metric-box"><div class="metric-val" style="color:#FFB86C;">RGPD</div><div class="metric-lbl">Conformité</div></div>
+          </div>
+          <div style="margin-top:26px;font-size:12px;font-weight:700;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;">Technologies</div>
+          <div class="tech-stack">
+            <span class="tech-tag">Python</span><span class="tech-tag">TensorFlow</span><span class="tech-tag">PyTorch</span>
+            <span class="tech-tag">OpenAI API</span><span class="tech-tag">LangChain</span>
+            <span class="tech-tag">Hugging Face</span><span class="tech-tag">FastAPI</span>
+            <span class="tech-tag">FAISS</span><span class="tech-tag">MLflow</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESSUS -->
+  <section class="section" style="border-top:1px solid var(--border);">
+    <div class="section-label">Notre processus</div>
+    <h2 class="section-title">De l'idée au déploiement<br>en 4 étapes.</h2>
+    <div class="process-steps">
+      <div class="step">
+        <div class="step-badge">01</div>
+        <div class="step-num">01</div>
+        <div class="step-title">Découverte</div>
+        <p class="step-desc">Analyse approfondie de vos besoins, définition du cahier des charges et architecture de la solution.</p>
+      </div>
+      <div class="step">
+        <div class="step-badge">02</div>
+        <div class="step-num">02</div>
+        <div class="step-title">Conception</div>
+        <p class="step-desc">Prototypage, design UX/UI, validation avec les parties prenantes avant tout développement.</p>
+      </div>
+      <div class="step">
+        <div class="step-badge">03</div>
+        <div class="step-num">03</div>
+        <div class="step-title">Développement</div>
+        <p class="step-desc">Sprints agiles, code reviews, tests automatisés et intégration continue tout au long du projet.</p>
+      </div>
+      <div class="step">
+        <div class="step-badge">04</div>
+        <div class="step-num">04</div>
+        <div class="step-title">Livraison</div>
+        <p class="step-desc">Déploiement sécurisé, formation des équipes, maintenance et support technique continu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TÉMOIGNAGES -->
+  <section class="section" style="padding-top:0;">
+    <div class="section-label">Témoignages</div>
+    <h2 class="section-title">Ce que disent<br>nos clients.</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"NovaCore a transformé notre vision en une plateforme robuste en moins de 4 mois. La qualité du code et la communication tout au long du projet étaient exemplaires."</p>
+        <div class="testimonial-author">
+          <div class="t-avatar av1">AM</div>
+          <div>
+            <div class="author-name">Amadou Mensah</div>
+            <div class="author-role">CTO, TechVision Africa</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"L'application web livrée a réduit notre temps de traitement de 60 %. L'équipe NovaCore est réactive, professionnelle et vraiment à l'écoute."</p>
+        <div class="testimonial-author">
+          <div class="t-avatar av2">SB</div>
+          <div>
+            <div class="author-name">Sophie Beaumont</div>
+            <div class="author-role">Directrice Digitale, Nova&amp;Co</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">"NovaOS a centralisé tous nos processus. Le support post-lancement est exceptionnel. Je recommande vivement NovaCore pour tout projet ambitieux."</p>
+        <div class="testimonial-author">
+          <div class="t-avatar av3">KD</div>
+          <div>
+            <div class="author-name">Kofi Diallo</div>
+            <div class="author-role">CEO, Synapse Technologies</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA → contact.html ── -->
+  <div class="cta-banner">
+    <div>
+      <div class="cta-title">Prêt à construire quelque chose<br><em>d'extraordinaire ?</em></div>
+      <p style="color:var(--muted);margin-top:12px;font-size:16px;">Discutons de votre projet dès aujourd'hui.</p>
+    </div>
+    <a class="btn-primary" style="font-size:16px;padding:16px 36px;white-space:nowrap;" href="contact.html">
+      Contactez-nous →
+    </a>
+  </div>
+
+  <footer>
+    <div class="footer-copy">© 2025 NovaCore. Tous droits réservés.</div>
+    <div class="footer-links">
+      <a href="index.html">Présentation</a>
+      <a href="landing.html">Notre Produit</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </footer>
+
+</main>
+<script src="main.js"></script>
+</body>
+</html>
